@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Quattrocento+Sans&display=swap");
+
+* {
+    font-family: "Quattrocento Sans", sans-serif;
+}
+
+html {
+    background-color: #202020;
+}
+
+body {
+    color: #ffffff80;
+    margin: 0;
+
+    header {
+        text-align: center;
+    }
+
+    #locationInfo-container {
+        text-align: center;
+        margin-left: 1.4204545454545454vh;
+        margin-right: 1.4204545454545454vh;
+        margin-top: 5.681818181818182vh;
+
+
+        #location {
+            font-size: 4.971590909090909vh;
+            margin-top: 2.840909090909091vh;
+            margin-bottom: 0px;
+        }
+
+        #currentTemp {
+            height: 14.914772727272727vh;
+            font-size: 14.204545454545455vh;
+            margin-top: 0;
+            margin-bottom: 0;
+            padding-left: 4.971590909090909vh;
+        }
+
+        #currentCondition {
+            font-size: 4.261363636363637vh;
+            margin-bottom: 0;
+            margin-top: 0;
+        }
+
+        #highAndLow {
+            font-size: 2.840909090909091vh;
+            margin-top: 0.2840909090909091vh;
+        }
+    }
+
+    #forecast-label {
+        margin-left: 1.7045454545454546vh;
+        margin-right: 1.7045454545454546vh;
+    }
+
+
+    .forecast-container {
+        margin-left: 1.4204545454545454vh;
+        margin-right: 1.4204545454545454vh;
+        background-color: #434343;        
+        border-radius: 0.7102272727272727vh;
+    }
+
+    #dailyForecast-container {
+        height: 24.03409090909091vh;
+        overflow-x: scroll;
+        overflow-y: hidden;
+
+        .todaysWeather {        
+            display: table-cell;
+            padding-left: 5.255681818181818vh;            
+            padding-right: 5.113636363636363vh;
+            padding-top: 0.2840909090909091vh;
+            text-align: center;
+
+            .chance {
+                margin-top: 0;
+                font-size: 12.0.7102272727272727vh;
+                margin-bottom: 0.15625000000000003vh;
+            }
+        }
+    }
+    
+    #wForecast-label {
+        padding-left: 71.875vh;
+        padding-right: 71.875vh;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    #weeklyForecast-container {
+        margin-left: 71.875vh;
+        margin-right: 71.875vh;
+        
+        .weeksWeather {
+            display: table-cell;
+            text-align: center;
+            padding-top: 0.2840909090909091vh;
+            padding-right: 5.113636363636363vh;
+            font-size: 2.272727272727273vh;
+        }
+
+        #weeksWeather1 {
+            padding-left: 14.346590909090908vh;
+        }
+
+        #weeksWeather2 {
+            padding-left: 18.46590909090909vh;
+        }
+    }
+}

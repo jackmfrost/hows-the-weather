@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Hows The Weather</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='stylesheets/main.css'>
+    <script src='scripts/main.js'></script>
+
+</head>
+<body>
+    <header>
+        <h1 id="title">How's The Weather?</h1>
+        <input type="search" id="searchLocation" placeholder="Enter new city" value="">
+        <button type="button" id="searchButton">Search</button>
+        <hr>
+    </header>
+
+    <section>
+        <div id="locationInfo-container">
+            <p id="location"></p>
+            <p id="currentTemp"></p>
+            <p id="currentCondition"></p>
+            <p id="highAndLow"></p>
+        </div>
+    </section>
+
+    <script src='scripts/geolocationWeather.js'></script>
+    <script src='scripts/inputWeather.js'></script>
+</body>
+</html>

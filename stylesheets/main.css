@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Quattrocento+Sans&display=swap");
+* {
+  font-family: "Quattrocento Sans", sans-serif;
+}
+
+html {
+  background-color: #202020;
+}
+
+body {
+  color: rgba(255, 255, 255, 0.5019607843);
+  margin: 0;
+}
+body header {
+  text-align: center;
+}
+body #locationInfo-container {
+  text-align: center;
+  margin-left: 1.4204545455vh;
+  margin-right: 1.4204545455vh;
+  margin-top: 5.6818181818vh;
+}
+body #locationInfo-container #location {
+  font-size: 4.9715909091vh;
+  margin-top: 2.8409090909vh;
+  margin-bottom: 0px;
+}
+body #locationInfo-container #currentTemp {
+  height: 14.9147727273vh;
+  font-size: 14.2045454545vh;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 4.9715909091vh;
+}
+body #locationInfo-container #currentCondition {
+  font-size: 4.2613636364vh;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+body #locationInfo-container #highAndLow {
+  font-size: 2.8409090909vh;
+  margin-top: 0.2840909091vh;
+}
+body #forecast-label {
+  margin-left: 1.7045454545vh;
+  margin-right: 1.7045454545vh;
+}
+body .forecast-container {
+  margin-left: 1.4204545455vh;
+  margin-right: 1.4204545455vh;
+  background-color: #434343;
+  border-radius: 0.7102272727vh;
+}
+body #dailyForecast-container {
+  height: 24.0340909091vh;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+body #dailyForecast-container .todaysWeather {
+  display: table-cell;
+  padding-left: 5.2556818182vh;
+  padding-right: 5.1136363636vh;
+  padding-top: 0.2840909091vh;
+  text-align: center;
+}
+body #dailyForecast-container .todaysWeather .chance {
+  margin-top: 0;
+  font-size: 12 0.7102272727vh;
+  margin-bottom: 0.15625vh;
+}
+body #wForecast-label {
+  padding-left: 71.875vh;
+  padding-right: 71.875vh;
+  text-align: center;
+  margin: 0 auto;
+}
+body #weeklyForecast-container {
+  margin-left: 71.875vh;
+  margin-right: 71.875vh;
+}
+body #weeklyForecast-container .weeksWeather {
+  display: table-cell;
+  text-align: center;
+  padding-top: 0.2840909091vh;
+  padding-right: 5.1136363636vh;
+  font-size: 2.2727272727vh;
+}
+body #weeklyForecast-container #weeksWeather1 {
+  padding-left: 14.3465909091vh;
+}
+body #weeklyForecast-container #weeksWeather2 {
+  padding-left: 18.4659090909vh;
+}
+
+/*# sourceMappingURL=main.css.map */
